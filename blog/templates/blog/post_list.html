@@ -11,9 +11,7 @@
             <p>Published at: {{ post.published_date }}</p>  <!-- Durch die geschweiften Klammern wird in der Klasse nach dem Variablennamen (hier post.published_date) gesucht und dann der Inhalt-->
             <h2><a href="">{{ post.title }}</a></h2>        <!-- der Variable aus der Datenbank angezeigt-->
             <p>{{ post.text|linebreaksbr }}</p>
-            <p>End of Post</p>
          </div>
         {% endfor %}
-
     </body>
 </html>
